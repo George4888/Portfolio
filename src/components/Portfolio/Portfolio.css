@@ -1,0 +1,18 @@
+.portfolioPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+
+.yearAPI img {
+  height: 340px;
+}

@@ -1,0 +1,15 @@
+.main {
+  margin: 0;
+  display: flex;
+  color: white;
+  height: 58.563rem;
+  background-color: #3a4e69;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 21.875rem;
+  background-color: #151c26;
+  overflow: auto;
+}
