@@ -4,7 +4,6 @@ import "./MySkills.css";
 export default function MySkills() {
   return (
     <div className="skillsPage">
-      <h1>Skills</h1>
       <div className="logo">
         <img src="/photos/HTML5.png" style={{ height: 70 }} alt="HTML5" />
         <img src="/photos/CSS3.png" style={{ height: 70 }} alt="CSS3" />

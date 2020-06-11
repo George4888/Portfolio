@@ -6,11 +6,15 @@
   flex-direction: column;
 }
 
+.portfolioPage h1 {
+  margin-top: 4rem;
+}
+
 .projects {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .yearAPI img {
@@ -23,4 +27,9 @@
 
 .groupProjct img {
   height: 340px;
+}
+
+.sources {
+  display: flex;
+  justify-content: space-evenly;
 }
