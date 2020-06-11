@@ -14,19 +14,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8rem;
+  margin-top: 7rem;
+}
+
+.yearAPI {
+  margin: 2rem;
+  font-size: 1.4rem;
+}
+
+.bootstrapSite {
+  margin: 2rem;
+  font-size: 1.4rem;
+}
+
+.groupProjct {
+  margin: 2rem;
+  font-size: 1.4rem;
 }
 
 .yearAPI img {
-  height: 340px;
+  height: 21.25rem;
 }
 
 .bootstrapSite img {
-  height: 340px;
+  height: 21.25rem;
 }
 
 .groupProjct img {
-  height: 340px;
+  height: 21.25rem;
 }
 
 .sources {

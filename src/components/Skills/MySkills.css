@@ -2,6 +2,25 @@
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.section1 {
+  display: flex;
+}
+
+.section2 {
+  display: flex;
+}
+
+.section3 {
+  display: flex;
 }
