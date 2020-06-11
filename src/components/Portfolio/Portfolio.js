@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className="projects">
         <div className="yearAPI">
           <p>Random Year API</p>
-          <a href="http://randomyearapi.epizy.com/?i=1">
+          <a href="http://randomyearapi.epizy.com">
             <img src="/photos/yearAPI.png" alt="year api" />
           </a>
           <div className="sources">
@@ -19,7 +19,7 @@ export default function Portfolio() {
         </div>
         <div className="bootstrapSite">
           <p>Bootstrap 4</p>
-          <a href="http://bootst4testing.epizy.com/?i=1#">
+          <a href="http://bootst4testing.epizy.com">
             <img src="/photos/bstrap4testing.png" alt="bootstrap site" />
           </a>
           <div className="sources">
