@@ -7,13 +7,13 @@ export default function Portfolio() {
       <h1>My work</h1>
       <div className="projects">
         <div className="yearAPI">
-          <img src="/photos/yearAPI.png" alt="year api photo" />
+          <img src="/photos/yearAPI.png" alt="year api" />
         </div>
         <div className="bootstrapSite">
-          <img src="" alt="bootstrap site photo" />
+          <img src="/photos/bstrap4testing.png" alt="bootstrap site" />
         </div>
         <div className="groupProjct">
-          <img src="" alt="group project photo" />
+          <img src="" alt="group project" />
         </div>
       </div>
     </div>
