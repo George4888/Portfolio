@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+  flex: 1;
 }
 
 .portfolioPage h1 {
@@ -20,16 +23,22 @@
 .yearAPI {
   margin: 2rem;
   font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 1px solid whitesmoke;
 }
 
 .bootstrapSite {
   margin: 2rem;
   font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 1px solid whitesmoke;
 }
 
 .groupProjct {
   margin: 2rem;
   font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 1px solid whitesmoke;
 }
 
 .yearAPI img {
@@ -38,10 +47,12 @@
 
 .bootstrapSite img {
   height: 21.25rem;
+  width: 23.726rem;
 }
 
 .groupProjct img {
   height: 21.25rem;
+  width: 23.726rem;
 }
 
 .sources {

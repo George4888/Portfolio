@@ -24,7 +24,11 @@ export default function Portfolio() {
           </a>
           <div className="sources">
             <a href="https://github.com/George4888/Single-page-app">
-              <img src="/photos/GitHub.png" style={{ height: 35 }} alt="repo" />
+              <img
+                src="/photos/GitHub.png"
+                style={{ height: 35, width: 35 }}
+                alt="repo"
+              />
             </a>
           </div>
         </div>
@@ -35,7 +39,11 @@ export default function Portfolio() {
           </a>
           <div className="sources">
             <a href="https://github.com/Boo1122/IMDB">
-              <img src="/photos/GitHub.png" style={{ height: 35 }} alt="repo" />
+              <img
+                src="/photos/GitHub.png"
+                style={{ height: 35, width: 35 }}
+                alt="repo"
+              />
             </a>
           </div>
         </div>

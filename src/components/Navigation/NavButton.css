@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 21.875rem;
+  background-color: #151c26;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.home input {
+  background-color: #151c26;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 1rem;
+  border: none;
+}
+
+.skills input {
+  background-color: #151c26;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 1rem;
+  border: none;
+}
+
+.portfolio input {
+  background-color: #151c26;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 1rem;
+  border: none;
+}
+
+.contact input {
+  background-color: #151c26;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 1rem;
+  border: none;
+}
