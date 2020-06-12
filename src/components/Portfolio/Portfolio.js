@@ -12,8 +12,13 @@ export default function Portfolio() {
             <img src="/photos/yearAPI.png" alt="year api" />
           </a>
           <div className="sources">
+            <span>GitHub Repository</span>
             <a href="https://github.com/George4888/random-year-api">
-              <img src="/photos/GitHub.png" style={{ height: 35 }} alt="repo" />
+              <img
+                src="/photos/GitHub.png"
+                style={{ height: 35, width: 35 }}
+                alt="repo"
+              />
             </a>
           </div>
         </div>
@@ -23,6 +28,7 @@ export default function Portfolio() {
             <img src="/photos/bstrap4testing.png" alt="bootstrap site" />
           </a>
           <div className="sources">
+            <span>GitHub Repository</span>
             <a href="https://github.com/George4888/Single-page-app">
               <img
                 src="/photos/GitHub.png"
@@ -38,6 +44,7 @@ export default function Portfolio() {
             <img src="/photos/teamV.png" alt="group project" />
           </a>
           <div className="sources">
+            <span>GitHub Repository</span>
             <a href="https://github.com/Boo1122/IMDB">
               <img
                 src="/photos/GitHub.png"

@@ -37,12 +37,27 @@
 
 .section1 div {
   margin: 1rem;
+  background-color: #151c26;
+  height: 150px;
+  width: 100px;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
 }
 
 .section2 div {
   margin: 1rem;
+  background-color: #151c26;
+  height: 150px;
+  width: 100px;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
 }
 
 .section3 div {
   margin: 1rem;
+  background-color: #151c26;
+  height: 150px;
+  width: 100px;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
 }

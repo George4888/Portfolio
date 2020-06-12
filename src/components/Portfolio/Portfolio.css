@@ -24,25 +24,29 @@
   margin: 2rem;
   font-size: 1.4rem;
   padding: 0.5rem;
-  border: 1px solid whitesmoke;
+  background-color: #151c26;
+  border-radius: 5%;
 }
 
 .bootstrapSite {
   margin: 2rem;
   font-size: 1.4rem;
   padding: 0.5rem;
-  border: 1px solid whitesmoke;
+  background-color: #151c26;
+  border-radius: 5%;
 }
 
 .groupProjct {
   margin: 2rem;
   font-size: 1.4rem;
   padding: 0.5rem;
-  border: 1px solid whitesmoke;
+  background-color: #151c26;
+  border-radius: 5%;
 }
 
 .yearAPI img {
   height: 21.25rem;
+  width: 23.726rem;
 }
 
 .bootstrapSite img {
@@ -58,4 +62,10 @@
 .sources {
   display: flex;
   justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.sources span {
+  font-size: 0.8rem;
+  margin: 0.5rem;
 }
