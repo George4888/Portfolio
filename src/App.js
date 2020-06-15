@@ -7,7 +7,6 @@ import MySkills from "./components/Skills/MySkills";
 import NavButton from "./components/Navigation/NavButton";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
-import { motion } from "framer-motion";
 
 function App() {
   return (

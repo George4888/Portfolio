@@ -9,15 +9,21 @@ export default function Contact() {
       <div className="conImg">
         <motion.div className="line1" whileHover={{ scale: 1.1 }}>
           <p>Facebook</p>
-          <img id="fb-contact" src="/photos/facebook.png" alt="facebook" />
+          <a href="https://www.facebook.com/dangeorge.caila.1">
+            <img id="fb-contact" src="/photos/facebook.png" alt="facebook" />
+          </a>
         </motion.div>
         <motion.div className="line2" whileHover={{ scale: 1.1 }}>
           <p>LinkedIn</p>
-          <img id="link-contact" src="/photos/LinkedIn.png" alt="linkedin" />
+          <a href="https://www.linkedin.com/in/dan-george-caila-660269191/">
+            <img id="link-contact" src="/photos/LinkedIn.png" alt="linkedin" />
+          </a>
         </motion.div>
         <motion.div className="line3" whileHover={{ scale: 1.1 }}>
           <p>GitHub</p>
-          <img id="git-contact" src="photos/Git3.png" alt="github" />
+          <a href="https://github.com/George4888">
+            <img id="git-contact" src="photos/Git3.png" alt="github" />
+          </a>
         </motion.div>
       </div>
     </div>
