@@ -1,12 +1,77 @@
 import React from "react";
 import "./MySkills.css";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: 1,
+      duration: 1.5,
+    },
+  },
+};
+
+const childrenVariants = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: 2,
+      duration: 1.7,
+    },
+  },
+};
+
+const childrenVariants2 = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: 3,
+      duration: 1.7,
+    },
+  },
+};
+
+const childrenVariants3 = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      delay: 4,
+      duration: 1.7,
+    },
+  },
+};
 
 export default function MySkills() {
   return (
     <div className="skillsPage">
-      <h1>I have experience working with</h1>
+      <motion.h1
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        I have experience working with
+      </motion.h1>
+
       <div className="logo">
-        <div className="section1">
+        <motion.div
+          className="section1"
+          variants={childrenVariants}
+          initial="hidden"
+          animate="visible"
+        >
           <div className="html5">
             <p>HTML 5</p>
             <img src="/photos/HTML5.png" style={{ height: 70 }} alt="HTML5" />
@@ -19,8 +84,14 @@ export default function MySkills() {
             <p>JavaScript</p>
             <img src="/photos/JS.png" style={{ height: 70 }} alt="JS" />
           </div>
-        </div>
-        <div className="section2">
+        </motion.div>
+
+        <motion.div
+          className="section2"
+          variants={childrenVariants2}
+          initial="hidden"
+          animate="visible"
+        >
           <div className="re">
             <p>React JS</p>
             <img
@@ -37,8 +108,13 @@ export default function MySkills() {
               alt="Node JS"
             />
           </div>
-        </div>
-        <div className="section3">
+        </motion.div>
+        <motion.div
+          className="section3"
+          variants={childrenVariants3}
+          initial="hidden"
+          animate="visible"
+        >
           <div className="web">
             <p>Webpack</p>
             <img
@@ -51,7 +127,7 @@ export default function MySkills() {
             <p>GitHub</p>
             <img src="/photos/Git2.png" style={{ height: 70 }} alt="GitHub" />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

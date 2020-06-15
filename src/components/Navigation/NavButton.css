@@ -15,6 +15,11 @@
   font-size: 1.2rem;
   margin: 1rem;
   border: none;
+  outline: none;
+}
+
+.home:hover input {
+  color: #43638b;
 }
 
 .skills input {
@@ -23,6 +28,11 @@
   font-size: 1.2rem;
   margin: 1rem;
   border: none;
+  outline: none;
+}
+
+.skills:hover input {
+  color: #43638b;
 }
 
 .portfolio input {
@@ -31,6 +41,11 @@
   font-size: 1.2rem;
   margin: 1rem;
   border: none;
+  outline: none;
+}
+
+.portfolio:hover input {
+  color: #43638b;
 }
 
 .contact input {
@@ -39,4 +54,9 @@
   font-size: 1.2rem;
   margin: 1rem;
   border: none;
+  outline: none;
+}
+
+.contact:hover input {
+  color: #43638b;
 }

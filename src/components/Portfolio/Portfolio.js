@@ -1,12 +1,13 @@
 import React from "react";
 import "./Portfolio.css";
+import { motion } from "framer-motion";
 
 export default function Portfolio() {
   return (
     <div className="portfolioPage">
       <h1>My work</h1>
       <div className="projects">
-        <div className="yearAPI">
+        <motion.div className="yearAPI" whileHover={{ scale: 1.1 }}>
           <p>Random Year API</p>
           <a href="http://randomyearapi.epizy.com">
             <img src="/photos/yearAPI.png" alt="year api" />
@@ -21,8 +22,8 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </div>
-        <div className="bootstrapSite">
+        </motion.div>
+        <motion.div className="bootstrapSite" whileHover={{ scale: 1.1 }}>
           <p>Bootstrap 4</p>
           <a href="http://bootst4testing.epizy.com">
             <img src="/photos/bstrap4testing.png" alt="bootstrap site" />
@@ -37,8 +38,8 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </div>
-        <div className="groupProjct">
+        </motion.div>
+        <motion.div className="groupProjct" whileHover={{ scale: 1.1 }}>
           <p>Team V Project</p>
           <a href="http://">
             <img src="/photos/teamV.png" alt="group project" />
@@ -53,7 +54,7 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
