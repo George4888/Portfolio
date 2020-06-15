@@ -17,7 +17,7 @@ const forH1 = {
 
 const forYear = {
   hidden: {
-    x: "+100vw",
+    x: "-100vw",
   },
   visible: {
     x: 0,
@@ -30,10 +30,10 @@ const forYear = {
 
 const forBoot4 = {
   hidden: {
-    x: "+100vw",
+    y: "-100vw",
   },
   visible: {
-    x: 0,
+    y: 0,
     transition: {
       delay: 3,
       duration: 2.5,
@@ -43,10 +43,10 @@ const forBoot4 = {
 
 const forGroupProject = {
   hidden: {
-    x: "+100vw",
+    y: "-100vw",
   },
   visible: {
-    x: 0,
+    y: 0,
     transition: {
       delay: 4,
       duration: 2.5,
