@@ -26,6 +26,7 @@
   padding: 0.5rem;
   background-color: #151c26;
   border-radius: 5%;
+  border: 2px solid whitesmoke;
 }
 
 .bootstrapSite {
@@ -34,6 +35,7 @@
   padding: 0.5rem;
   background-color: #151c26;
   border-radius: 5%;
+  border: 2px solid whitesmoke;
 }
 
 .groupProjct {
@@ -42,6 +44,7 @@
   padding: 0.5rem;
   background-color: #151c26;
   border-radius: 5%;
+  border: 2px solid whitesmoke;
 }
 
 .yearAPI img {

@@ -20,4 +20,5 @@
   flex-direction: column;
   background-color: #151c26;
   padding: 3rem;
+  border: 2px solid whitesmoke;
 }
