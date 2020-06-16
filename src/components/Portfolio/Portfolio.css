@@ -27,6 +27,7 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
+  overflow-x: hidden;
 }
 
 .bootstrapSite {
@@ -36,6 +37,7 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
+  overflow-x: hidden;
 }
 
 .groupProjct {
@@ -45,6 +47,7 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
+  overflow-x: hidden;
 }
 
 .yearAPI img {

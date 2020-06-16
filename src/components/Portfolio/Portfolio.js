@@ -37,7 +37,7 @@ export default function Portfolio() {
 
   const forYear = {
     hidden: {
-      x: "-100vw",
+      x: "-120vw",
     },
     visible: {
       x: 0,
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
   const forBoot4 = {
     hidden: {
-      x: "-100vw",
+      x: "-120vw",
     },
     visible: {
       x: 0,
@@ -63,7 +63,7 @@ export default function Portfolio() {
 
   const forGroupProject = {
     hidden: {
-      x: "-100vw",
+      x: "-120vw",
     },
     visible: {
       x: 0,
