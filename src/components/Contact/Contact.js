@@ -3,8 +3,33 @@ import "./Contact.css";
 import { motion } from "framer-motion";
 
 export default function Contact() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        duration: 2,
+      },
+    },
+    exit: {
+      X: "-100vw",
+      transition: {
+        ease: "easeInOut",
+      },
+    },
+  };
+
   return (
-    <div className="contactPage">
+    <motion.div
+      className="contactPage"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <h1>Contact</h1>
       <div className="conImg">
         <motion.div className="line1" whileHover={{ scale: 1.1 }}>
@@ -26,6 +51,6 @@ export default function Contact() {
           </a>
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 }

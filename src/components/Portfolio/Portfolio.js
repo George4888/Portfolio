@@ -2,61 +2,86 @@ import React from "react";
 import "./Portfolio.css";
 import { motion } from "framer-motion";
 
-const forH1 = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 0.5,
-      duration: 2,
-    },
-  },
-};
-
-const forYear = {
-  hidden: {
-    x: "-100vw",
-  },
-  visible: {
-    x: 0,
-    transition: {
-      delay: 2,
-      duration: 2.5,
-    },
-  },
-};
-
-const forBoot4 = {
-  hidden: {
-    y: "-100vw",
-  },
-  visible: {
-    y: 0,
-    transition: {
-      delay: 3,
-      duration: 2.5,
-    },
-  },
-};
-
-const forGroupProject = {
-  hidden: {
-    y: "-100vw",
-  },
-  visible: {
-    y: 0,
-    transition: {
-      delay: 4,
-      duration: 2.5,
-    },
-  },
-};
-
 export default function Portfolio() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        duration: 2,
+      },
+    },
+    exit: {
+      X: "-100vw",
+      transition: {
+        ease: "easeInOut",
+      },
+    },
+  };
+
+  const forH1 = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        duration: 2,
+      },
+    },
+  };
+
+  const forYear = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        delay: 2,
+        duration: 2.5,
+      },
+    },
+  };
+
+  const forBoot4 = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        delay: 3,
+        duration: 2.5,
+      },
+    },
+  };
+
+  const forGroupProject = {
+    hidden: {
+      x: "-100vw",
+    },
+    visible: {
+      x: 0,
+      transition: {
+        delay: 4,
+        duration: 2.5,
+      },
+    },
+  };
+
   return (
-    <div className="portfolioPage">
+    <motion.div
+      className="portfolioPage"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <motion.h1 variants={forH1} initial="hidden" animate="visible">
         My work
       </motion.h1>
@@ -128,6 +153,6 @@ export default function Portfolio() {
           </div>
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 }

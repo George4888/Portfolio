@@ -1,67 +1,88 @@
 import React from "react";
 import "./MySkills.css";
-import { motion } from "framer-motion";
-
-const containerVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 1,
-      duration: 1.5,
-    },
-  },
-};
-
-const childrenVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 2,
-      duration: 1.7,
-    },
-  },
-};
-
-const childrenVariants2 = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 3,
-      duration: 1.7,
-    },
-  },
-};
-
-const childrenVariants3 = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 4,
-      duration: 1.7,
-    },
-  },
-};
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function MySkills() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        duration: 2,
+      },
+    },
+    exit: {
+      X: "-100vw",
+      transition: {
+        ease: "easeInOut",
+      },
+    },
+  };
+
+  const forH1 = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 1,
+        duration: 1.5,
+      },
+    },
+  };
+
+  const childrenVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 2,
+        duration: 1.7,
+      },
+    },
+  };
+
+  const childrenVariants2 = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 3,
+        duration: 1.7,
+      },
+    },
+  };
+
+  const childrenVariants3 = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 4,
+        duration: 1.7,
+      },
+    },
+  };
+
   return (
-    <div className="skillsPage">
-      <motion.h1
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-      >
+    <motion.div
+      className="skillsPage"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
+      <motion.h1 variants={forH1} initial="hidden" animate="visible">
         I have experience working with
       </motion.h1>
 
@@ -129,6 +150,6 @@ export default function MySkills() {
           </div>
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 }
