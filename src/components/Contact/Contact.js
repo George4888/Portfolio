@@ -29,7 +29,16 @@ export default function Contact() {
       initial="hidden"
       animate="visible"
     >
+      <a
+        id="downloadFile"
+        download=""
+        target="_blank"
+        href="/Resume/Resume4888.pdf"
+      >
+        Download resume
+      </a>
       <h1>Contact information</h1>
+
       <div className="address">
         <p id="addr">Address:</p>
         <span>Cluj Napoca, Romania</span>
