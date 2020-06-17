@@ -2,62 +2,113 @@
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   overflow: auto;
   flex: 1;
 }
 
 .skillsPage h1 {
-  margin-top: 5.8rem;
 }
 
 .logo {
+  height: 100%;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 3rem;
+  flex-wrap: wrap;
 }
 
 .section1 {
   display: flex;
+}
+
+.html5 {
   margin: 1rem;
+  background-color: #151c26;
+  height: 7.375rem;
+  width: 5.25rem;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
 }
 
 .section2 {
   display: flex;
+}
+
+.css3 {
   margin: 1rem;
+  background-color: #151c26;
+  height: 7.375rem;
+  width: 5.25rem;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
 }
 
 .section3 {
   display: flex;
-  margin: 1rem;
 }
 
-.section1 div {
+.js {
   margin: 1rem;
   background-color: #151c26;
-  height: 9.375rem;
-  width: 6.25rem;
+  height: 7.375rem;
+  width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
 }
 
-.section2 div {
+.section4 {
+  display: flex;
+}
+
+.re {
   margin: 1rem;
   background-color: #151c26;
-  height: 9.375rem;
-  width: 6.25rem;
+  height: 7.375rem;
+  width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
 }
 
-.section3 div {
+.section5 {
+  display: flex;
+}
+
+.node {
   margin: 1rem;
   background-color: #151c26;
-  height: 9.375rem;
-  width: 6.25rem;
+  height: 7.375rem;
+  width: 5.25rem;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
+}
+
+.section6 {
+  display: flex;
+}
+
+.web {
+  margin: 1rem;
+  background-color: #151c26;
+  height: 7.375rem;
+  width: 5.25rem;
+  border-radius: 10%;
+  border: 2px solid whitesmoke;
+}
+
+.section7 {
+  display: flex;
+}
+
+.git {
+  margin: 1rem;
+  background-color: #151c26;
+  height: 7.375rem;
+  width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
 }
