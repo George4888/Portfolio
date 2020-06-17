@@ -75,13 +75,7 @@ export default function MySkills() {
   };
 
   return (
-    <motion.div
-      className="skillsPage"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <motion.div className="skillsPage">
       <motion.h1 variants={forH1} initial="hidden" animate="visible">
         I have experience working with
       </motion.h1>

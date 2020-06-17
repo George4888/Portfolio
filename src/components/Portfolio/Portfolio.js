@@ -75,13 +75,7 @@ export default function Portfolio() {
   };
 
   return (
-    <motion.div
-      className="portfolioPage"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
+    <motion.div className="portfolioPage">
       <motion.h1 variants={forH1} initial="hidden" animate="visible">
         My work
       </motion.h1>

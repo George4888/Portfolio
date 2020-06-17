@@ -7,7 +7,6 @@
   flex-direction: column;
   overflow: auto;
   flex: 1;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .conImg {
@@ -40,7 +39,6 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .line2 {
@@ -50,7 +48,6 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .line3 {
@@ -60,5 +57,4 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }

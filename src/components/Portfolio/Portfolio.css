@@ -7,7 +7,6 @@
   flex-wrap: wrap;
   overflow: auto;
   flex: 1;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .portfolioPage h1 {
@@ -29,7 +28,6 @@
   border-radius: 5%;
   border: 2px solid whitesmoke;
   overflow-x: hidden;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .bootstrapSite {
@@ -40,7 +38,6 @@
   border-radius: 5%;
   border: 2px solid whitesmoke;
   overflow-x: hidden;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .groupProjct {
@@ -51,7 +48,6 @@
   border-radius: 5%;
   border: 2px solid whitesmoke;
   overflow-x: hidden;
-  background-image: url("../../49926-download-free-blue-grunge.jpg");
 }
 
 .yearAPI img {
