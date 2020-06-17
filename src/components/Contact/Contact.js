@@ -23,7 +23,12 @@ export default function Contact() {
   };
 
   return (
-    <motion.div className="contactPage">
+    <motion.div
+      className="contactPage"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <h1>Contact</h1>
       <div className="conImg">
         <motion.div className="line1" whileHover={{ scale: 1.1 }}>
