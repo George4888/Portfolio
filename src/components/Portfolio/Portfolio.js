@@ -11,7 +11,7 @@ export default function Portfolio() {
       opacity: 1,
       transition: {
         delay: 0.5,
-        duration: 2,
+        duration: 1,
       },
     },
     exit: {

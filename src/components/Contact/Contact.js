@@ -29,7 +29,15 @@ export default function Contact() {
       initial="hidden"
       animate="visible"
     >
-      <h1>Contact</h1>
+      <h1>Contact information</h1>
+      <div className="address">
+        <p id="addr">Address:</p>
+        <span>Cluj Napoca, Romania</span>
+        <p>Phone:</p>
+        <span>+40 742 688 104</span>
+        <p>Gmail:</p>
+        <span>dangeorge4888@gmail.com</span>
+      </div>
       <div className="conImg">
         <motion.div className="line1" whileHover={{ scale: 1.1 }}>
           <p>Facebook</p>
