@@ -30,7 +30,7 @@ export default function Portfolio() {
       opacity: 1,
       transition: {
         delay: 0.5,
-        duration: 1.5,
+        duration: 1,
       },
     },
   };
@@ -43,7 +43,7 @@ export default function Portfolio() {
       x: 0,
       transition: {
         delay: 1,
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -56,7 +56,7 @@ export default function Portfolio() {
       x: 0,
       transition: {
         delay: 1.5,
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -69,7 +69,7 @@ export default function Portfolio() {
       x: 0,
       transition: {
         delay: 2,
-        duration: 2,
+        duration: 1,
       },
     },
   };
