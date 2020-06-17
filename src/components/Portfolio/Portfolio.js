@@ -42,7 +42,7 @@ export default function Portfolio() {
     visible: {
       x: 0,
       transition: {
-        delay: 1.5,
+        delay: 1,
         duration: 2,
       },
     },
@@ -55,7 +55,7 @@ export default function Portfolio() {
     visible: {
       x: 0,
       transition: {
-        delay: 2,
+        delay: 1.5,
         duration: 2,
       },
     },
@@ -68,7 +68,7 @@ export default function Portfolio() {
     visible: {
       x: 0,
       transition: {
-        delay: 2.5,
+        delay: 2,
         duration: 2,
       },
     },
