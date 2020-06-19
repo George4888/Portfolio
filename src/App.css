@@ -5,6 +5,7 @@
   width: 100vw;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   color: whitesmoke;
   height: 58.563rem;
   /* background-color: #3a4e69; */
