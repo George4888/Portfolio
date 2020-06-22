@@ -1,22 +1,27 @@
 .skillsPage {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow: auto;
-  flex: 1;
-}
-
-.logo {
-  height: 100%;
-  width: 100%;
-  text-align: center;
+  height: 1080px;
+  width: 1920px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-image: url(./48071.jpg);
+}
+
+#logo {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
   margin-top: 3rem;
   flex-wrap: wrap;
+}
+
+.list1 {
+  margin: 1rem;
+}
+
+.list2 {
+  margin: 1rem;
 }
 
 .section1 {

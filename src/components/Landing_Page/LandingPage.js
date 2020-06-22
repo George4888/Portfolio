@@ -50,13 +50,7 @@ export default function LandingPage() {
 
   return (
     <motion.div className="landingPage">
-      <motion.div
-        className="landing-page-container"
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
-        exit="exit"
-      >
+      <motion.div className="landing-page-container">
         <motion.h1 variants={variantsForH1}>
           Hello, my name is George!
         </motion.h1>

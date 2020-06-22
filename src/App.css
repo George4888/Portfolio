@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 .main {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: auto;
   margin: 0;
   display: flex;
+  flex-direction: column;
   color: whitesmoke;
-  height: 58.563rem;
-  /* background-color: #3a4e69; */
   font-family: "Quicksand", sans-serif;
-  background-color: #283444;
+  /* background-color: #283444; */
 }

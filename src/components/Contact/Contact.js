@@ -37,6 +37,7 @@ export default function Contact() {
       >
         Download resume
       </a>
+
       <h1>Contact information</h1>
 
       <div className="address">

@@ -7,7 +7,7 @@ export default function MySkills() {
   return (
     <div className="skillsPage">
       <h1>I have experience working with</h1>
-      <div className="logo">
+      <div id="logo">
         <div className="list1">
           <div className="section1">
             <div className="html5">

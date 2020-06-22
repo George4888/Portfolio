@@ -1,16 +1,14 @@
 .navigation {
+  height: 70px;
+  width: 1920px;
   display: flex;
-  flex-direction: column;
-  width: 21.875rem;
-  background-color: #151c26;
-  overflow: auto;
   align-items: center;
   justify-content: center;
-  overflow: auto;
+  background-color: black;
 }
 
 .home input {
-  background-color: #151c26;
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
@@ -23,7 +21,7 @@
 }
 
 .skills input {
-  background-color: #151c26;
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
@@ -36,7 +34,7 @@
 }
 
 .portfolio input {
-  background-color: #151c26;
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
@@ -49,7 +47,7 @@
 }
 
 .contact input {
-  background-color: #151c26;
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
