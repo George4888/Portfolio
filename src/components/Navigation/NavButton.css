@@ -1,12 +1,3 @@
-.navigation {
-  height: 70px;
-  width: 1920px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-}
-
 .home input {
   background-color: black;
   color: whitesmoke;

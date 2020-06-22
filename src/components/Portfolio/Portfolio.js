@@ -1,92 +1,12 @@
 import React from "react";
 import "./Portfolio.css";
-import { motion } from "framer-motion";
 
 export default function Portfolio() {
-  const containerVariants = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-      transition: {
-        delay: 0.5,
-        duration: 1,
-      },
-    },
-    exit: {
-      X: "-100vw",
-      transition: {
-        ease: "easeInOut",
-      },
-    },
-  };
-
-  const forH1 = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-      transition: {
-        delay: 0.5,
-        duration: 1,
-      },
-    },
-  };
-
-  const forYear = {
-    hidden: {
-      x: "-120vw",
-    },
-    visible: {
-      x: 0,
-      transition: {
-        delay: 1,
-        duration: 1,
-      },
-    },
-  };
-
-  const forBoot4 = {
-    hidden: {
-      x: "-120vw",
-    },
-    visible: {
-      x: 0,
-      transition: {
-        delay: 1.5,
-        duration: 1,
-      },
-    },
-  };
-
-  const forGroupProject = {
-    hidden: {
-      x: "-120vw",
-    },
-    visible: {
-      x: 0,
-      transition: {
-        delay: 2,
-        duration: 1,
-      },
-    },
-  };
-
   return (
-    <motion.div className="portfolioPage">
-      <motion.h1 variants={forH1} initial="hidden" animate="visible">
-        My work
-      </motion.h1>
-      <div className="projects">
-        <motion.div
-          className="yearAPI"
-          variants={forYear}
-          initial="hidden"
-          animate="visible"
-          whileHover={{ scale: 1.1 }}
-        >
+    <div className="portfolioPage">
+      <h1>My work</h1>
+      <div className="projects" id="projects">
+        <div className="yearAPI">
           <p>Random Year API</p>
           <a href="http://randomyearapi.epizy.com" target="_blank">
             <img src="/photos/yearAPI.png" alt="year api" />
@@ -104,14 +24,8 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </motion.div>
-        <motion.div
-          className="bootstrapSite"
-          variants={forBoot4}
-          initial="hidden"
-          animate="visible"
-          whileHover={{ scale: 1.1 }}
-        >
+        </div>
+        <div className="bootstrapSite">
           <p>Bootstrap 4</p>
           <a href="http://bootst4testing.epizy.com" target="_blank">
             <img src="/photos/bstrap4testing.png" alt="bootstrap site" />
@@ -129,14 +43,8 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </motion.div>
-        <motion.div
-          className="groupProjct"
-          variants={forGroupProject}
-          initial="hidden"
-          animate="visible"
-          whileHover={{ scale: 1.1 }}
-        >
+        </div>
+        <div className="groupProjct">
           <p>Team V Project</p>
           <a href="http://" target="_blank">
             <img src="/photos/teamV.png" alt="group project" />
@@ -151,8 +59,8 @@ export default function Portfolio() {
               />
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

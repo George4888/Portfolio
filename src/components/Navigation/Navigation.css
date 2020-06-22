@@ -1,0 +1,12 @@
+.navigation {
+  height: 70px;
+  width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.navigation a {
+  cursor: default;
+}

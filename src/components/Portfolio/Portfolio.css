@@ -25,7 +25,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .bootstrapSite {
@@ -35,7 +36,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .groupProjct {
@@ -45,7 +47,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .yearAPI img {

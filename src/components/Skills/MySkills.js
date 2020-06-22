@@ -1,11 +1,10 @@
 import React from "react";
 import "./MySkills.css";
-import { motion, AnimatePresence } from "framer-motion";
 import Progress from "./Progress";
 
 export default function MySkills() {
   return (
-    <div className="skillsPage">
+    <div className="skillsPage" id="skillsPage">
       <h1>I have experience working with</h1>
       <div id="logo">
         <div className="list1">

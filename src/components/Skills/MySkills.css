@@ -9,6 +9,8 @@
 }
 
 #logo {
+  height: 1080px;
+  width: 1920px;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -35,6 +37,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section2 {
@@ -48,6 +52,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section3 {
@@ -61,6 +67,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section4 {
@@ -74,6 +82,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section5 {
@@ -87,6 +97,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section6 {
@@ -100,6 +112,8 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }
 
 .section7 {
@@ -113,4 +127,6 @@
   width: 5.25rem;
   border-radius: 10%;
   border: 2px solid whitesmoke;
+  background-image: url(./48071.jpg);
+  background-size: 270px;
 }

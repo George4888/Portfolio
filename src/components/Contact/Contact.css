@@ -38,6 +38,8 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
+  background-image: url(./80980.jpg);
+  background-size: 200px 200px;
 }
 
 .line2 {
@@ -47,6 +49,8 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
+  background-image: url(./80980.jpg);
+  background-size: 200px 200px;
 }
 
 .line3 {
@@ -56,6 +60,8 @@
   border-radius: 5%;
   background-color: #151c26;
   border: 2px solid whitesmoke;
+  background-image: url(./80980.jpg);
+  background-size: 200px 200px;
 }
 
 .address {
@@ -68,6 +74,8 @@
   flex-direction: column;
   font-size: 1.2rem;
   border-radius: 5%;
+  background-image: url(./80980.jpg);
+  background-size: 400px 400px;
 }
 
 .address p,
@@ -87,4 +95,6 @@ span {
   padding: 1rem;
   background-color: #151c26;
   border: 2px solid whitesmoke;
+  background-image: url(./80980.jpg);
+  background-size: 200px 100px;
 }

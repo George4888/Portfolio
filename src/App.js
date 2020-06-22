@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import LandingPage from "./components/Landing_Page/LandingPage";
-import DocumentTitle from "react-document-title";
 import MySkills from "./components/Skills/MySkills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
