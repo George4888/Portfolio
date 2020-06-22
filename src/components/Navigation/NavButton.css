@@ -1,4 +1,4 @@
-.home input {
+.home p {
   background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
@@ -7,11 +7,11 @@
   outline: none;
 }
 
-.home:hover input {
+.home:hover p {
   color: #43638b;
 }
 
-.skills input {
+.skills p {
   background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
@@ -20,11 +20,11 @@
   outline: none;
 }
 
-.skills:hover input {
+.skills:hover p {
   color: #43638b;
 }
 
-.portfolio input {
+.portfolio p {
   background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
@@ -33,11 +33,11 @@
   outline: none;
 }
 
-.portfolio:hover input {
+.portfolio:hover p {
   color: #43638b;
 }
 
-.contact input {
+.contact p {
   background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
@@ -46,6 +46,6 @@
   outline: none;
 }
 
-.contact:hover input {
+.contact:hover p {
   color: #43638b;
 }

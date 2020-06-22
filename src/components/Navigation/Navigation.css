@@ -8,6 +8,6 @@
   position: fixed;
 }
 
-.navigation a {
-  cursor: default;
+.navigation > .active {
+  opacity: 0.3;
 }

@@ -1,22 +1,54 @@
 import React from "react";
 import NavButton from "./NavButton";
 import "./Navigation.css";
+import { Link } from "react-scroll";
 
 export default function Navigation() {
   return (
     <div className="navigation">
-      <a href="#landingPage">
+      <Link
+        activeClass="active"
+        to="landingPage"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         <NavButton name="Home" />
-      </a>
-      <a href="#skillsPage">
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="skillsPage"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         <NavButton name="Skills" />
-      </a>
-      <a href="#projects">
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         <NavButton name="Portfolio" />
-      </a>
-      <a href="#contact">
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         <NavButton name="Contact" />
-      </a>
+      </Link>
     </div>
   );
 }
