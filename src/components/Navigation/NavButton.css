@@ -1,7 +1,7 @@
 .navigation {
+  height: 70px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  width: 21.875rem;
   background-color: #151c26;
   overflow: auto;
   align-items: center;
