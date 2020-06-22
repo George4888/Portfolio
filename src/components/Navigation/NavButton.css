@@ -5,6 +5,8 @@
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .home:hover p {
@@ -18,6 +20,8 @@
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .skills:hover p {
@@ -31,6 +35,8 @@
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .portfolio:hover p {
@@ -44,6 +50,8 @@
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 .contact:hover p {

@@ -10,4 +10,5 @@
 
 .navigation > .active {
   opacity: 0.3;
+  color: #43638b;
 }
