@@ -11,7 +11,7 @@ export default function Navigation() {
         to="landingPage"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={0}
         duration={500}
       >
         <NavButton name="Home" />
@@ -22,7 +22,7 @@ export default function Navigation() {
         to="skillsPage"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={0}
         duration={500}
       >
         <NavButton name="Skills" />
@@ -33,7 +33,7 @@ export default function Navigation() {
         to="projects"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={0}
         duration={500}
       >
         <NavButton name="Portfolio" />
@@ -44,7 +44,7 @@ export default function Navigation() {
         to="contact"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={0}
         duration={500}
       >
         <NavButton name="Contact" />
