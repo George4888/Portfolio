@@ -26,7 +26,9 @@
   /* landing page */
 
   .landingPage {
-    background-size: 1200px 1200px;
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
   }
   .home p {
     font-size: 1.5rem;
@@ -44,7 +46,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 21rem;
+    margin: 15rem;
     font-size: 1rem;
   }
   .landing-page-container h1 {
@@ -73,6 +75,9 @@
   /* skill page */
 
   .skillsPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -84,7 +89,7 @@
   }
   #logo {
     margin-left: 5rem;
-    width: 800px;
+    width: 768px;
   }
   .progress {
     width: 200px;
@@ -128,6 +133,9 @@
   /* portfolio */
 
   .portfolioPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
     display: block;
   }
   .portfolioPage h1 {
@@ -173,6 +181,9 @@
   /* contact page */
 
   .contactPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -227,6 +238,10 @@
 @media screen and (max-width: 768px) {
   /* navigation */
 
+  .main {
+    height: 1024px;
+    width: 768px;
+  }
   .navigation {
     display: flex;
     justify-content: flex-start;
@@ -237,7 +252,9 @@
   /* landing page */
 
   .landingPage {
-    background-size: 1200px 1200px;
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
   }
   .home p {
     font-size: 1.5rem;
@@ -255,7 +272,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 21rem;
+    margin: 6rem;
     font-size: 1rem;
   }
   .landing-page-container h1 {
@@ -285,17 +302,33 @@
   /* skill page */
 
   .skillsPage {
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
   .skillsPage h1 {
-    font-size: 2rem;
-    margin: 5rem 14rem;
+    font-size: 1.6rem;
+    margin: 3rem 6rem;
   }
   #logo {
-    margin: 7rem 7rem;
+    margin: 0;
+    width: 768px;
+  }
+  .list1 {
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .list2 {
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .prog {
+    margin-top: 3rem;
+    margin-left: 1rem;
   }
   .progress {
     width: 200px;
@@ -340,13 +373,16 @@
 
   .portfolioPage {
     display: block;
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
   }
   .portfolioPage h1 {
     font-size: 2rem;
     margin-left: 4rem;
   }
   .projects {
-    margin: 5rem 10rem;
+    margin: 4rem 3rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -382,22 +418,25 @@
   /* contact page */
 
   .contactPage {
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
   .contactPage h1 {
     font-size: 1.6rem;
-    margin: 2rem 24rem;
+    margin: 2rem 15.4rem;
   }
   .address {
     font-size: 1rem;
     height: 320px;
     width: 270px;
-    margin: 3rem 23rem;
+    margin: 3rem 15rem;
   }
   .conImg {
-    margin: 1rem 18rem;
+    margin: 1rem 11rem;
   }
   .line1 {
     margin: 1rem;
@@ -426,214 +465,7 @@
     padding: 0.5rem;
   }
   #downloadFile {
-    font-size: 1.5rem;
-    margin: 1rem 7rem;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  /* navigation */
-
-  .navigation {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  }
-
-  /* landing page */
-
-  .landingPage {
-    background-size: 1200px 1200px;
-  }
-  .home p {
-    font-size: 1.5rem;
-  }
-  .skills p {
-    font-size: 1.5rem;
-  }
-  .portfolio p {
-    font-size: 1.5rem;
-  }
-  .contact p {
-    font-size: 1.5rem;
-  }
-  .landing-page-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 14rem;
     font-size: 1rem;
-  }
-  .landing-page-container h1 {
-    margin-top: 15rem;
-    flex-wrap: wrap;
-    font-size: 2rem;
-  }
-  .landing-page-container p {
-    margin-top: 23rem;
-    font-size: 1.6rem;
-    width: 430px;
-    height: 280px;
-  }
-  .desc h3 {
-    margin: 1rem;
-    width: 140px;
-    height: 100px;
-    font-size: 1.7rem;
-  }
-  .desc {
-    margin: 0;
-    font-size: 1rem;
-    width: 15.5rem;
-    height: 5rem;
-  }
-
-  /* skill page */
-
-  .skillsPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .skillsPage h1 {
-    font-size: 2rem;
-    margin: 5rem 8rem;
-  }
-  #logo {
-    margin: 7rem 1.3rem;
-  }
-  .progress {
-    width: 200px;
-  }
-  .html5 {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .css3 {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .js {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .re {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .node {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .web {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-  .git {
-    font-size: 0.8rem;
-    height: 6.375rem;
-    width: 4.25rem;
-  }
-
-  /* portfolio */
-
-  .portfolioPage {
-    display: block;
-  }
-  .portfolioPage h1 {
-    font-size: 2rem;
-    margin-left: 4rem;
-  }
-  .projects {
-    margin: 5rem 5rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .yearAPI {
-    height: 300px;
-    width: 250px;
-    font-size: 1rem;
-  }
-  .yearAPI img {
-    width: 250px;
-    height: 210px;
-  }
-  .bootstrapSite {
-    height: 300px;
-    width: 250px;
-    font-size: 1rem;
-  }
-  .bootstrapSite img {
-    width: 250px;
-    height: 210px;
-  }
-  .groupProjct {
-    height: 300px;
-    width: 250px;
-    font-size: 1rem;
-  }
-  .groupProjct img {
-    width: 250px;
-    height: 210px;
-  }
-
-  /* contact page */
-
-  .contactPage {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .contactPage h1 {
-    font-size: 1.6rem;
-    margin: 2rem 19rem;
-  }
-  .address {
-    font-size: 1rem;
-    height: 320px;
-    width: 270px;
-    margin: 3rem 18rem;
-  }
-  .conImg {
-    margin: 1rem 14rem;
-  }
-  .line1 {
-    margin: 1rem;
-    height: 8.5rem;
-    width: 6.375rem;
-    font-size: 1rem;
-  }
-  .line2 {
-    margin: 1rem;
-    height: 8.5rem;
-    width: 6.375rem;
-    font-size: 1rem;
-  }
-  .line3 {
-    margin: 1rem;
-    height: 8.5rem;
-    width: 6.375rem;
-    font-size: 1rem;
-  }
-  .conImg img {
-    height: 3.375rem;
-    margin-top: 0.5rem;
-  }
-  .downloadFile a {
-    margin-top: 1rem;
-    padding: 0.5rem;
-  }
-  #downloadFile {
-    font-size: 1.5rem;
-    margin: 1rem 4rem;
+    margin: 5rem 4rem;
   }
 }
