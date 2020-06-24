@@ -13,12 +13,12 @@
   color: #43638b;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   /* navigation */
 
   .navigation {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
   }

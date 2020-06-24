@@ -1,6 +1,6 @@
 import React from "react";
-import "./Media.css";
 import "./App.css";
+import "./Media.css";
 import LandingPage from "./components/Landing_Page/LandingPage";
 import MySkills from "./components/Skills/MySkills";
 import Portfolio from "./components/Portfolio/Portfolio";

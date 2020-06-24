@@ -4,7 +4,7 @@
   .navigation {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 500px;
   }
 
@@ -211,7 +211,7 @@
   .navigation {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 550px;
   }
 
@@ -418,7 +418,7 @@
   .navigation {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 768px;
   }
 
