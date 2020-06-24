@@ -44,17 +44,18 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 7rem;
+    margin: 21rem;
     font-size: 1rem;
   }
   .landing-page-container h1 {
-    margin-top: 7rem;
-    flex-wrap: wrap;
+    margin-top: 12rem;
     font-size: 2rem;
+    flex-wrap: wrap;
   }
   .landing-page-container p {
+    margin-top: 27rem;
     font-size: 1.4rem;
-    width: 300px;
+    width: 460px;
     height: 280px;
   }
   .desc h3 {
@@ -79,9 +80,10 @@
   }
   .skillsPage h1 {
     font-size: 2rem;
-    margin-left: 10rem;
+    margin: 8rem 10rem;
   }
   #logo {
+    margin-left: 5rem;
     width: 800px;
   }
   .progress {
@@ -177,18 +179,18 @@
   }
   .contactPage h1 {
     font-size: 1.6rem;
-    margin: 1rem 23rem;
+    margin: 1rem 24rem;
   }
 
   .address {
     font-size: 1rem;
     height: 320px;
     width: 270px;
-    margin: 1rem 22rem;
+    margin: 1rem 23rem;
   }
   .conImg {
     display: flex;
-    margin: 1rem 17rem;
+    margin: 1rem 18rem;
   }
   .line1 {
     margin: 1rem;
@@ -253,18 +255,18 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 20rem;
+    margin: 21rem;
     font-size: 1rem;
   }
   .landing-page-container h1 {
-    margin-top: 7rem;
+    margin-top: 15rem;
     flex-wrap: wrap;
     font-size: 2rem;
   }
   .landing-page-container p {
-    margin-top: 29rem;
+    margin-top: 23rem;
     font-size: 1.6rem;
-    width: 360px;
+    width: 430px;
     height: 280px;
   }
   .desc h3 {
@@ -290,7 +292,7 @@
   }
   .skillsPage h1 {
     font-size: 2rem;
-    margin: 4rem 15rem;
+    margin: 5rem 14rem;
   }
   #logo {
     margin: 7rem 7rem;
@@ -340,13 +342,12 @@
     display: block;
   }
   .portfolioPage h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-left: 4rem;
   }
   .projects {
-    margin: 0rem 4rem;
+    margin: 5rem 14rem;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -386,17 +387,17 @@
     align-items: flex-start;
   }
   .contactPage h1 {
-    font-size: 1rem;
-    margin: 1rem;
+    font-size: 1.6rem;
+    margin: 2rem 27rem;
   }
   .address {
     font-size: 1rem;
     height: 320px;
     width: 270px;
-    margin: 1rem 5rem;
+    margin: 3rem 26rem;
   }
   .conImg {
-    display: flex;
+    margin: 1rem 22rem;
   }
   .line1 {
     margin: 1rem;
@@ -424,9 +425,9 @@
     margin-top: 1rem;
     padding: 0.5rem;
   }
-  .downloadFile {
-    font-size: 1rem;
-    margin-top: 4rem;
+  #downloadFile {
+    font-size: 1.5rem;
+    margin: 1rem 7rem;
   }
 }
 
