@@ -30,7 +30,7 @@ export default function Navigation() {
 
       <Link
         activeClass="active"
-        to="projects"
+        to="portfolioPage"
         spy={true}
         smooth={true}
         offset={0}
