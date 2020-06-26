@@ -9,8 +9,7 @@
 }
 
 .navigation > .active {
-  opacity: 0.3;
-  color: #43638b;
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 1024px) {
