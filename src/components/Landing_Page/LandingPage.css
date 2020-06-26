@@ -1,22 +1,35 @@
 .landingPage {
-  width: 100vh;
+  height: 1080px;
+  width: 1920px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  background-image: url(./landingPage.jpg);
+}
+
+.landingPage h1 {
+  font-size: 3rem;
+}
+
+.desc {
+  margin-top: 400px;
+}
+
+.desc h3 {
+  font-size: 2rem;
 }
 
 .desc p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   width: 37.5rem;
 }
 
 .landing-page-container {
+  height: 1080px;
+  width: 1920px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #151c26;
-  padding: 3rem;
-  border: 2px solid whitesmoke;
+  /* background-color: #151c26; */
 }

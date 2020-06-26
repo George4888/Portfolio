@@ -1,61 +1,59 @@
-.navigation {
-  display: flex;
-  flex-direction: column;
-  width: 21.875rem;
-  background-color: #151c26;
-  overflow: auto;
-  align-items: center;
-  justify-content: center;
-}
-
-.home input {
-  background-color: #151c26;
+.home p {
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
-.home:hover input {
+.home:hover p {
   color: #43638b;
 }
 
-.skills input {
-  background-color: #151c26;
+.skills p {
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
-.skills:hover input {
+.skills:hover p {
   color: #43638b;
 }
 
-.portfolio input {
-  background-color: #151c26;
+.portfolio p {
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
-.portfolio:hover input {
+.portfolio:hover p {
   color: #43638b;
 }
 
-.contact input {
-  background-color: #151c26;
+.contact p {
+  background-color: black;
   color: whitesmoke;
   font-size: 1.5rem;
   margin: 1rem;
   border: none;
   outline: none;
+  cursor: pointer;
+  user-select: none;
 }
 
-.contact:hover input {
+.contact:hover p {
   color: #43638b;
 }

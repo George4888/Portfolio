@@ -1,0 +1,743 @@
+.navigation {
+  height: 70px;
+  width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: fixed;
+}
+
+.navigation > .active {
+  opacity: 0.3;
+  color: #43638b;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* navigation */
+
+  .navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* landing page */
+
+  .landingPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
+  }
+  .home p {
+    font-size: 1.5rem;
+  }
+  .skills p {
+    font-size: 1.5rem;
+  }
+  .portfolio p {
+    font-size: 1.5rem;
+  }
+  .contact p {
+    font-size: 1.5rem;
+  }
+  .landing-page-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15rem;
+    font-size: 1rem;
+  }
+  .landing-page-container h1 {
+    margin-top: 12rem;
+    font-size: 2rem;
+    flex-wrap: wrap;
+  }
+  .landing-page-container p {
+    margin-top: 27rem;
+    font-size: 1.4rem;
+    width: 460px;
+    height: 280px;
+  }
+  .desc h3 {
+    margin: 1.6rem;
+    width: 200px;
+    height: 100px;
+    font-size: 1.6rem;
+  }
+  .desc {
+    margin: 0;
+    width: 15.5rem;
+    height: 5rem;
+  }
+
+  /* skill page */
+
+  .skillsPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .skillsPage h1 {
+    font-size: 2rem;
+    margin: 8rem 10rem;
+  }
+  #logo {
+    margin-left: 5rem;
+    width: 768px;
+  }
+  .progress {
+    width: 200px;
+  }
+  .html5 {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .css3 {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .js {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .re {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .node {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .web {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .git {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+
+  /* portfolio */
+
+  .portfolioPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
+    display: flex;
+  }
+  .portfolioPage h1 {
+    font-size: 2rem;
+  }
+  .projects {
+    margin: 5rem 11rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 680px;
+  }
+  .yearAPI {
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .yearAPI img {
+    width: 250px;
+    height: 210px;
+  }
+  .bootstrapSite {
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .bootstrapSite img {
+    width: 250px;
+    height: 210px;
+  }
+  .groupProjct {
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .groupProjct img {
+    width: 250px;
+    height: 210px;
+  }
+
+  /* contact page */
+
+  .contactPage {
+    height: 1366px;
+    width: 1024px;
+    background-size: 1024px 1366px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contactPage h1 {
+    font-size: 1.6rem;
+    margin: 3rem 24rem;
+  }
+
+  .address {
+    font-size: 1rem;
+    height: 320px;
+    width: 270px;
+    margin: 5rem 23rem;
+  }
+  .conImg {
+    display: flex;
+    margin: 1rem 18rem;
+  }
+  .line1 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .line2 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .line3 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .conImg img {
+    height: 3.375rem;
+    margin-top: 0.5rem;
+  }
+  .downloadFile a {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  .downloadFile {
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* navigation */
+
+  .main {
+    height: 1024px;
+    width: 768px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* landing page */
+
+  .landingPage {
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
+  }
+  .home p {
+    font-size: 1.5rem;
+  }
+  .skills p {
+    font-size: 1.5rem;
+  }
+  .portfolio p {
+    font-size: 1.5rem;
+  }
+  .contact p {
+    font-size: 1.5rem;
+  }
+  .landing-page-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 6rem;
+    font-size: 1rem;
+  }
+  .landing-page-container h1 {
+    margin-top: 15rem;
+    flex-wrap: wrap;
+    font-size: 2rem;
+  }
+  .landing-page-container p {
+    margin-top: 23rem;
+    font-size: 1.6rem;
+    width: 430px;
+    height: 280px;
+  }
+  .desc h3 {
+    margin: 1rem;
+    width: 140px;
+    height: 100px;
+    font-size: 1.7rem;
+  }
+  .desc {
+    margin: 0;
+    font-size: 1rem;
+    width: 15.5rem;
+    height: 5rem;
+  }
+
+  /* skill page */
+
+  .skillsPage {
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .skillsPage h1 {
+    font-size: 1.6rem;
+    margin: 3rem 6rem;
+  }
+  #logo {
+    margin: 0;
+    width: 768px;
+  }
+  .list1 {
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .list2 {
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .prog {
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+  .progress {
+    width: 200px;
+  }
+  .html5 {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .css3 {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .js {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .re {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .node {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .web {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+  .git {
+    font-size: 0.8rem;
+    height: 6.375rem;
+    width: 4.25rem;
+  }
+
+  /* portfolio */
+
+  .portfolioPage {
+    display: block;
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
+  }
+  .portfolioPage h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+  .projects {
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 768px;
+  }
+  .yearAPI {
+    margin: 3rem;
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .yearAPI img {
+    width: 250px;
+    height: 210px;
+  }
+  .bootstrapSite {
+    margin: 3rem;
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .bootstrapSite img {
+    width: 250px;
+    height: 210px;
+  }
+  .groupProjct {
+    margin: 3rem;
+    height: 300px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  .groupProjct img {
+    width: 250px;
+    height: 210px;
+  }
+
+  /* contact page */
+
+  .contactPage {
+    height: 1024px;
+    width: 768px;
+    background-size: 768px 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contactPage h1 {
+    font-size: 1.6rem;
+    margin: 2rem 15.4rem;
+  }
+  .address {
+    font-size: 1rem;
+    height: 320px;
+    width: 270px;
+    margin: 3rem 15rem;
+  }
+  .conImg {
+    margin: 1rem 11rem;
+  }
+  .line1 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .line2 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .line3 {
+    margin: 1rem;
+    height: 8.5rem;
+    width: 6.375rem;
+    font-size: 1rem;
+  }
+  .conImg img {
+    height: 3.375rem;
+    margin-top: 0.5rem;
+  }
+  .downloadFile a {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  #downloadFile {
+    font-size: 1rem;
+    margin: 5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  /* navigation */
+
+  .main {
+    height: 731px;
+    width: 411px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* landing page */
+
+  .landingPage {
+    height: 731px;
+    width: 411px;
+    background-size: 411px 731px;
+  }
+  .home p {
+    font-size: 1rem;
+  }
+  .skills p {
+    font-size: 1rem;
+  }
+  .portfolio p {
+    font-size: 1rem;
+  }
+  .contact p {
+    font-size: 1rem;
+  }
+  .landing-page-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 3rem;
+    font-size: 1rem;
+  }
+  .landing-page-container h1 {
+    margin-top: 18rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+  }
+  .landing-page-container p {
+    margin-top: 19rem;
+    font-size: 1rem;
+    width: 270px;
+    height: 280px;
+  }
+  .desc h3 {
+    margin: 1rem;
+    width: 140px;
+    height: 30px;
+    font-size: 1rem;
+  }
+  .desc {
+    margin: 0;
+    font-size: 1rem;
+    width: 15.5rem;
+    height: 5rem;
+  }
+
+  /* skill page */
+
+  .skillsPage {
+    height: 731px;
+    width: 411px;
+    background-size: 411px 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .skillsPage h1 {
+    font-size: 1rem;
+    margin: 2rem 3rem;
+  }
+  #logo {
+    margin: 0;
+    width: 411px;
+  }
+  .list1 {
+    margin: 0;
+  }
+  .list2 {
+    margin: 0;
+  }
+  .prog {
+    margin-top: 0.5rem;
+    margin-left: 10px;
+  }
+  .progress {
+    height: 25px;
+    width: 100px;
+  }
+  .html5 {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .css3 {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .js {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .re {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .node {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .web {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+  .git {
+    margin: 4px;
+    font-size: 0.5rem;
+    height: 4.375rem;
+    width: 3.25rem;
+  }
+
+  /* portfolio */
+
+  .portfolioPage {
+    display: block;
+    height: 731px;
+    width: 411px;
+    background-size: 411px 731px;
+  }
+  .portfolioPage h1 {
+    font-size: 1rem;
+    margin: 20px;
+  }
+  .projects {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 411px;
+  }
+  .sources {
+    margin: 0;
+  }
+  .sources span {
+    font-size: 10px;
+  }
+  .yearAPI {
+    margin: 1rem;
+    height: 178px;
+    width: 122px;
+    font-size: 10px;
+  }
+  .yearAPI img {
+    width: 125px;
+    height: 105px;
+  }
+  .bootstrapSite {
+    margin: 1rem;
+    height: 178px;
+    width: 122px;
+    font-size: 10px;
+  }
+  .bootstrapSite img {
+    width: 125px;
+    height: 105px;
+  }
+  .groupProjct {
+    margin: 1rem;
+    height: 178px;
+    width: 122px;
+    font-size: 10px;
+  }
+  .groupProjct img {
+    width: 125px;
+    height: 105px;
+  }
+
+  /* contact page */
+
+  .contactPage {
+    height: 731px;
+    width: 411px;
+    background-size: 411px 731px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contactPage h1 {
+    font-size: 1rem;
+    margin: 2rem 7.4rem;
+  }
+  #addr {
+    margin-top: 1rem;
+  }
+  .address {
+    font-size: 12px;
+    height: 210px;
+    width: 200px;
+    margin: 3rem 6rem;
+  }
+  .conImg {
+    margin: 1rem 4rem;
+  }
+  .line1 {
+    margin: 10px;
+    height: 6.5rem;
+    width: 4.375rem;
+    font-size: 10px;
+  }
+  #fb-contact {
+    height: 2.375rem;
+  }
+  .line2 {
+    margin: 10px;
+    height: 6.5rem;
+    width: 4.375rem;
+    font-size: 10px;
+  }
+  #link-contact {
+    height: 2.375rem;
+  }
+  .line3 {
+    margin: 10px;
+    height: 6.5rem;
+    width: 4.375rem;
+    font-size: 10px;
+  }
+  #git-contact {
+    height: 2.375rem;
+  }
+  .conImg img {
+    height: 3.375rem;
+    margin-top: 0.5rem;
+  }
+  .downloadFile a {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  #downloadFile {
+    font-size: 10px;
+    padding: 10px;
+    margin: 1rem 2rem;
+  }
+}

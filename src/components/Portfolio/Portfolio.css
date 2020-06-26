@@ -1,16 +1,15 @@
 .portfolioPage {
-  height: 100%;
-  width: 100%;
+  height: 1080px;
+  width: 1920px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  overflow: auto;
-  flex: 1;
+  background-image: url(./31216424.jpg);
+  margin-top: 10rem;
 }
 
 .portfolioPage h1 {
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 
 .projects {
@@ -27,7 +26,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .bootstrapSite {
@@ -37,7 +37,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .groupProjct {
@@ -47,7 +48,8 @@
   background-color: #151c26;
   border-radius: 5%;
   border: 2px solid whitesmoke;
-  overflow-x: hidden;
+  background-image: url(./31216424.jpg);
+  background-size: 350px;
 }
 
 .yearAPI img {
